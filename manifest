@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 2.0
+apiversion: 2
+description: th
+author: th
+license: th
+copyright: th
+
+
+# these should not be edited
+name: iosutil
+moduleid: jp.coe.util
+guid: d70654b5-e155-4490-8e30-230267a2d531
+platform: iphone
+minsdk: 3.1.3.GA
