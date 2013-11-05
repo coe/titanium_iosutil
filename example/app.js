@@ -12,6 +12,7 @@ var label = Ti.UI.createLabel();
 win.add(label);
 win.open();
 
+
 // TODO: write your module tests here
 var iosutil = require('jp.coe.util');
 Ti.API.info("module is => " + iosutil);

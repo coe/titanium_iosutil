@@ -100,11 +100,11 @@
 
 -(NSArray*)getFontList:(id)args
 {
-    NSArray *array = [UIFont familyNames];
-    int count = [array count];
-    for (int i = 0; i < count; i++) {
-        NSLog(@"%@", [UIFont fontNamesForFamilyName:[array objectAtIndex:i]]);
-    }
+//    NSArray *array = [UIFont familyNames];
+//    int count = [array count];
+//    for (int i = 0; i < count; i++) {
+//        NSLog(@"%@", [UIFont fontNamesForFamilyName:[array objectAtIndex:i]]);
+//    }
     return [UIFont familyNames];
     
 }
