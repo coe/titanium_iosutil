@@ -9,5 +9,8 @@
 @interface JpCoeUtilModule : TiModule 
 {
 }
+-(NSArray*)getFontList:(id)args;
+-(NSNumber*)getToolbarHeight:(id)args;
+
 
 @end

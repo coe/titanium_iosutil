@@ -10,29 +10,29 @@
 	<string>iosutil</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>33808188-F8BA-4BD3-81BF-98BC8F01A796</key>
+		<key>F60119F6BBE23AD3FAF4EE4539E8B698B91217A7</key>
 		<string>https://github.com/coe/titanium_iosutil.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iosutil.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>33808188-F8BA-4BD3-81BF-98BC8F01A796</key>
+		<key>F60119F6BBE23AD3FAF4EE4539E8B698B91217A7</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/coe/titanium_iosutil.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>33808188-F8BA-4BD3-81BF-98BC8F01A796</string>
+	<string>F60119F6BBE23AD3FAF4EE4539E8B698B91217A7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>33808188-F8BA-4BD3-81BF-98BC8F01A796</string>
+			<string>F60119F6BBE23AD3FAF4EE4539E8B698B91217A7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iosutil</string>
 		</dict>

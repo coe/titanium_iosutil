@@ -114,4 +114,12 @@
 	// example property setter
 }
 
+-(NSNumber*)getToolbarHeight:(id)args{
+    UIToolbar *toolbar = [UIToolbar new];
+    [toolbar sizeToFit];
+    CGRect frame = toolbar.frame;
+    [toolbar release];
+    return NUMDOUBLE(frame.size.height);
+}
+
 @end
