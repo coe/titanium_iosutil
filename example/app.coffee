@@ -14,6 +14,8 @@ Ti.API.info "module is => " + iosutil
 arr = iosutil.getFontList()
 Ti.API.info "arr is => " + arr
 Ti.API.info "module exampleProp is => " + iosutil.exampleProp
+Ti.API.info "touchID => " + iosutil.isTouchID()
+
 iosutil.exampleProp = "This is a test value"
 table = Ti.UI.createTable
   top:0

@@ -11,6 +11,7 @@
 }
 -(NSArray*)getFontList:(id)args;
 -(NSNumber*)getToolbarHeight:(id)args;
+-(NSNumber*)isTouchID:(id)args;
 
 
 @end

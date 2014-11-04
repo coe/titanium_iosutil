@@ -4,6 +4,9 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
+
+#import <LocalAuthentication/LocalAuthentication.h>
+
 #import "JpCoeUtilModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
@@ -34,6 +37,7 @@
 	[super startup];
 	
 	NSLog(@"[INFO] %@ loaded",self);
+
 }
 
 -(void)shutdown:(id)sender
@@ -121,5 +125,17 @@
     [toolbar release];
     return NUMDOUBLE(frame.size.height);
 }
+
+/*
+ タッチIDが使えるかどうか
+ */
+-(NSNumber*)isTouchID:(id)args{
+    LAContext *myContext = [[[LAContext alloc] init] autorelease];
+    NSError *authError = nil;
+    
+    return NUMBOOL([UIViewController instancesRespondToSelector:@selector(showDetailViewController:sender:)] && [myContext canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&authError]
+                   );
+}
+
 
 @end
