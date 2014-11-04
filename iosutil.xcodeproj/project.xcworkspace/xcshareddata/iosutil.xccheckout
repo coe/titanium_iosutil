@@ -14,7 +14,7 @@
 		<string>https://github.com/coe/titanium_iosutil.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iosutil.xcodeproj/project.xcworkspace</string>
+	<string>iosutil.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F60119F6BBE23AD3FAF4EE4539E8B698B91217A7</key>
